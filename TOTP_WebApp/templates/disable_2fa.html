@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Disable 2FA · TOTP Web App{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-7 col-lg-5">
+    <div class="card card-dark p-4">
+      <h2 class="h4 mb-1">Disable 2FA</h2>
+      <p class="muted mb-4">Enter your current authenticator code to disable 2FA.</p>
+
+      <form method="post" class="vstack gap-3">
+        <div>
+          <label class="form-label">Authenticator code</label>
+          <input class="form-control" name="code" placeholder="123456" required inputmode="numeric" autocomplete="one-time-code" />
+        </div>
+
+        <button class="btn btn-warning" type="submit">Disable 2FA</button>
+
+        <div class="muted small">
+          <a class="link-soft" href="{{ url_for('dashboard') }}">Cancel</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

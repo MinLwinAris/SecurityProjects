@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Dashboard · TOTP Web App{% endblock %}
+
+{% block content %}
+<div class="row g-4">
+  <div class="col-lg-8">
+    <div class="card card-dark p-4">
+      <h1 class="h3 mb-1">Dashboard</h1>
+      <p class="muted mb-0">Welcome, <span class="text-white fw-semibold">{{ user.username }}</span> ! 🙂 </p>
+    </div>
+          <!-- Sample Posts / News -->
+    <div class="card card-dark p-4 mt-4">
+      <h2 class="h5 mb-3">📰 Sample Posts</h2>
+
+      <div class="vstack gap-3">
+        <div class="p-3 rounded border border-light border-opacity-10">
+          <div class="fw-semibold">Why Enable 2FA?</div><br>
+          <div class="muted small">
+            Two-factor authentication significantly reduces the risk of account compromise and Never share your authenticator codes 🪪 or secret keys 🔑 with anyone.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="col-lg-4">
+    <div class="card card-dark p-4">
+      <h2 class="h5 mb-3">Security</h2>
+
+      {% if user.is_2fa_enabled %}
+        <div class="pill pill-ok mb-3">✅2FA Status Enabled</div>
+        <div class="d-grid gap-2">
+          <a class="btn btn-outline-warning" href="{{ url_for('disable_2fa') }}">Disable 2FA</a>
+        </div>
+      {% else %}
+        <div class="pill pill-off mb-3">️⭕ 2FA Status Disabled</div>
+        <div class="d-grid gap-2">
+          <a class="btn btn-primary" href="{{ url_for('enable_2fa') }}">Enable 2FA</a>
+        </div>
+      {% endif %}
+
+      <hr class="border-light opacity-10 my-4">
+
+      <div class="d-grid">
+        <a class="btn btn-outline-danger" href="{{ url_for('logout') }}">Logout</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
