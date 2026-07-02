@@ -1,0 +1,83 @@
+domain,DMARC,SPF,MX,A,CNAME,TXT,NS,DNSSEC
+acgt.asia,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,182.255.20.44,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+acgt.com,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,103.246.205.242,NO_RECORD,"""v=spf1 -all""",ns-1134.awsdns-13.org.; ns-161.awsdns-20.com.; ns-1848.awsdns-39.co.uk.; ns-598.awsdns-10.net.,NO_RECORD
+acgt.com.my,NODOMAIN,NONE,NO_RECORD,182.255.20.44,NO_RECORD,NO_RECORD,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+acgt.com.sg,NODOMAIN,NONE,NO_RECORD,NO_RECORD,NO_RECORD,NO_RECORD,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+acgt.my,NODOMAIN,NONE,NO_RECORD,NO_RECORD,NO_RECORD,NO_RECORD,egns1.genting.com.; egns2.genting.com.,NO_RECORD
+agtechcity.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1; 103.246.205.243,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+agtechcity.com.my,"""v=DMARC1;, p=reject;""","""v=spf1 -all""",NO_RECORD,103.246.205.243,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+asianindo.com,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+asianindogroup.com,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+asianindoholdings.com,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+asiatic.com.my,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+asiatic.my,SERVFAIL,NONE,SERVFAIL,208.91.112.55,SERVFAIL,SERVFAIL,dns1.egenting.com.; gfw1.genting.com.my.,NO_RECORD
+gaiaagri.com,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+gasolinetree.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+genphr.com,NODOMAIN,NONE,NO_RECORD,NO_RECORD,NO_RECORD,NO_RECORD,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+genpinfo.com,NODOMAIN,NONE,0 genpinfo.com.,NO_RECORD,NO_RECORD,NO_RECORD,ns184.mschosting.com.; ns185.mschosting.com.; ns186.mschosting.com.,NO_RECORD
+gentingacgt.com,"""v=DMARC1;"" ""p=reject;"" """"","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingacgt.com.my,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+genting-bio.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingbiooil.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingbio-oil.com,"""v=DMARC1;"" ""p=reject;"" """"","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingbiooil.com.my,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingbio-oil.com.my,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingbiotech.ai,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingbiotech.com,"""v=DMARC1;"" ""p=reject;"" """"","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+genting-biotech.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingdna.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+genting-dna.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentinggenomics.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+genting-genomics.com,"""v=DMARC1;"" ""p=reject;"" """"","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingland.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all"" """"",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all"" """"",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+genting-land.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all"" """"",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all"" """"",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantation.ai,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantation.co.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+gentingplantation.com,NODOMAIN,NONE,NO_RECORD,NO_RECORD,NO_RECORD,NO_RECORD,egns1.genting.com.; egns2.genting.com.,NO_RECORD
+genting-plantation.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantation.com.my,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantation.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+gentingplantation.my,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantationnusantara.co.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+gentingplantationnusantara.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+gentingplantations.ai,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.asia,NODOMAIN,NONE,10 capricorn.gentingplantations.asia.,NO_RECORD,NO_RECORD,NO_RECORD,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.cn,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.co.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+gentingplantations.com,NODOMAIN,NONE,NO_RECORD,NO_RECORD,NO_RECORD,NO_RECORD,ea-coread01.gpn.local.; idazure011s.gpn.local.; idgpn005s.gpn.local.; idgpn035v.gpn.local.; sea-coread01.gpn.local.,NO_RECORD
+genting-plantations.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.com.cn,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.com.hk,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.com.my,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.com.tw,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.hk,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+gentingplantations.in,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.my,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.net.cn,"""v=DMARC1;"" ""p=reject;"" """"","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.org.cn,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.tw,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.中国,TIMEOUT,NONE,TIMEOUT,TIMEOUT,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantations.台灣,SERVFAIL,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingplantationsnusantara.co.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+gentingplantationsnusantara.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; pct=100;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+gentingproperties.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+genting-properties.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingproperty.ai,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingproperty.com,NODOMAIN,"""v=spf1 a mx ip4:103.246.205.192/26 ?all""",5 mail.gentingproperty.com.,103.246.205.243,NO_RECORD,"""v=spf1 a mx ip4:103.246.205.192/26 ?all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+genting-property.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingproperty.com.my,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+gentingproperty.my,TIMEOUT,NONE,TIMEOUT,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+ggt.my,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+greenoil.com.my,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+jakartapremiumoutlets.co.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;""","""v=spf1 -all""",0 null.,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+jakartapremiumoutlets.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;""","""v=spf1 -all""",0 null.,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+premiumoutlet.ai,SERVFAIL,NONE,SERVFAIL,208.91.112.55,TIMEOUT,TIMEOUT,egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+premiumoutlet.co.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;""","""v=spf1 -all""",NO_RECORD,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+premiumoutlet.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;""","""v=spf1 -all""",0 null.,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+premiumoutlets.co.id,"""v=DMARC1; p=none; rua=mailto:3987048ef8cb4c9aa20fba22a059c3ed@dmarc-reports.cloudflare.net""","""v=spf1 include:spf.mailjet.com ?all""",1 SMTP.GOOGLE.COM.,104.26.14.31; 104.26.15.31; 172.67.71.184,NO_RECORD,"""google-site-verification=71RLuJStwB6UXAZMoZLHP17UprZXEABSEzr39FlX5To""; ""v=spf1 include:spf.mailjet.com ?all""",jaxson.ns.cloudflare.com.; selah.ns.cloudflare.com.,FOUND
+premiumoutlets.com.my,"""v=DMARC1;p=quarantine;sp=none;adkim=r;aspf=r;pct=100;fo=0;rf=afrf;ri=86400;rua=mailto:your@email.com;ruf=mailto:your@email.com""","""v=spf1 ip4:103.6.244.86 a mx include:spf.mailjet.com include:spf.newipdns.com -all""",0 mail.premiumoutlets.com.my.,103.6.244.86,NO_RECORD,"""google-site-verification=TC_KcWcUMfEu82-FB4EU3XJNEwJpmqy649WYvTdNTss""; ""v=spf1 ip4:103.6.244.86 a mx include:spf.mailjet.com include:spf.newipdns.com -all""",ns30501.newipdns.com.; ns30502.newipdns.com.,NO_RECORD
+premiumoutlets.id,"""v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;""","""v=spf1 -all""",0 null.,NO_RECORD,NO_RECORD,"""v=spf1 -all""",dns1-parking.masterweb.com.; dns2-parking.masterweb.com.,NO_RECORD
+thegasolinetree.com,"""v=DMARC1;"" ""p=reject;""","""v=spf1 -all""",NO_RECORD,127.0.0.1,NO_RECORD,"""v=spf1 -all""",egns1.genting.com.; egns2.genting.com.; egns4.genting.com.,NO_RECORD
+asiatic.co.id,SERVFAIL,NONE,SERVFAIL,208.91.112.55,SERVFAIL,SERVFAIL,ns1.genting.com.; ns2.genting.com.,NO_RECORD
+mygpn.id,NODOMAIN,NONE,NO_RECORD,172.28.60.200,NO_RECORD,NO_RECORD,ea-coread01.gpn.local.; idgpn005s.gpn.local.; idgpn035v.gpn.local.; sea-coread01.gpn.local.,NO_RECORD
