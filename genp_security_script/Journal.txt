@@ -1,0 +1,1 @@
+Jul 02 12:16:22 wb-gpn systemd[1]: pgbouncer_fdw.service: Failed with result 'exit-code'.

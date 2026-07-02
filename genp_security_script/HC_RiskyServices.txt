@@ -1,0 +1,17 @@
+=== Risky Legacy Services ===
+Checked: 07-02-2026 12:16:27
+
+Service              State        Note
+-------------------- ------------ ----
+telnet               inactive    
+ftp                  inactive    
+rsh                  inactive    
+rlogin               inactive    
+rexec                inactive    
+vsftpd               inactive    
+xinetd               inactive    
+tftp                 inactive    
+nis                  inactive    
+rpcbind              inactive    
+
+--- inetd / xinetd config (if present) ---

@@ -1,0 +1,13 @@
+=== Firewall State ===
+Checked: 07-02-2026 12:16:27
+
+--- UFW ---
+
+--- iptables INPUT chain ---
+iptables not available.
+
+--- ip6tables INPUT chain ---
+ip6tables not available.
+
+--- IP forwarding ---
+net.ipv4.ip_forward = 0

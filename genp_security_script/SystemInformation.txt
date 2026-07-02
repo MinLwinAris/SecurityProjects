@@ -1,0 +1,2 @@
+Script Version;OS;OS Version;Date of Script run;Hostname;Instance Creation Date
+1.1;Ubuntu;26.04;07-02-2026 12:16:36;wb-gpn;1676914687

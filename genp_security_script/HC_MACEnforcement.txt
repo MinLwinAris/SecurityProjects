@@ -1,0 +1,5 @@
+=== Mandatory Access Control (MAC) Enforcement ===
+Checked: 07-02-2026 12:16:27
+
+--- AppArmor ---
+apparmor module is loaded.
